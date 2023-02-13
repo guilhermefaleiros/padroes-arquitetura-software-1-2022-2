@@ -1,0 +1,15 @@
+version: '3.2'
+services:
+  postgres:
+    image: postgres:11
+    container_name: postgres-avatar
+    ports:
+      - '5432:5432'
+    volumes:
+      - postgres-data-avatar:/var/lib/postgresql/data
+    environment:
+      POSTGRES_DB: avatar
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: admin
+volumes:
+  postgres-data-avatar:

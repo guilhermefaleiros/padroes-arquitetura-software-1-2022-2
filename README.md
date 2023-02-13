@@ -1,6 +1,6 @@
 ### P-Avatar
 
-Essa implementação consiste em fazer uma simulação de um P-Avatar, simulando seus sinais vitais e informações físicas sobre o paciente
+Essa implementação consiste em fazer uma simulação de um P-Avatar, simulando seus sinais vitais e informações físicas sobre o paciente.
 
 ### Como executar a aplicação localmente?
 
